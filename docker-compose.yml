@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  spark:
+    restart: always
+    image: rheor108/spark_the_definitive_guide_practice
+    ports:
+      - "8080:8080"
